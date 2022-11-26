@@ -34,6 +34,7 @@
 #define MBEDTLS_GCM_C
 #define MBEDTLS_HAVE_TIME
 #define MBEDTLS_HAVE_TIME_DATE
+#define MBEDTLS_CIPHER_MODE_CTR // needed for MICROPY_PY_UCRYPTOLIB_CTR
 
 // Time hook
 #include <time.h>

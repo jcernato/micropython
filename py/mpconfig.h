@@ -1579,7 +1579,7 @@ typedef double mp_float_t;
 
 // Depends on MICROPY_PY_UCRYPTOLIB
 #ifndef MICROPY_PY_UCRYPTOLIB_CTR
-#define MICROPY_PY_UCRYPTOLIB_CTR (0)
+#define MICROPY_PY_UCRYPTOLIB_CTR (1)
 #endif
 
 #ifndef MICROPY_PY_UCRYPTOLIB_CONSTS
